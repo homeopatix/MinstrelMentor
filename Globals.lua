@@ -9,21 +9,21 @@ function CreateLocalizationInfo()
 
 	if Turbine.Engine.GetLanguage() == Turbine.Language.German then
 		Strings.PluginName = "Minstrel Mentor";
-		Strings.PluginText = "Par Homeopatix";
-		Strings.PluginLocked = "Gesperrte Symbole";
-		Strings.PluginUnlocked = "Symbole freigeschaltet";
+		Strings.PluginText = "Von Homeopatix";
+		Strings.PluginLocked = "Verkn\195\188pfungen gesperrt";
+		Strings.PluginUnlocked = "Verkn\195\188pfungen entsperrt";
 		Strings.PluginAltEnable = "Alt-Taste aktiviert";
 		Strings.PluginAltDesable = "Alt-Taste deaktiviert";
-		Strings.PluginWindowShow = "Schaufenster.";
-		Strings.PluginWindowHide = "Verstecke das Fenster.";
-		Strings.PluginHelp = " *** Tierhandlung Hilfe ***\n\n" ..
-		"/mi show show window\n" ..
-		"/mi lock um die Symbole zu sperren oder zu entsperren\n" ..
-		"/mi default F\195\188lle mit grundlegenden Emotes\n" ..
-		"/mi alt - ALT-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
-		"/mi hide hide window\n" ..
-		"/mi toggle - Fenster ein-oder ausblenden\n\n" ..
-		"Sie k\195\182nnen Ihre Ges\195\164nge per Drag & Drop auf die Linien ziehen und mit dem Mausrad l\195\182schen";
+		Strings.PluginWindowShow = "Fenster wird angezeigt";
+		Strings.PluginWindowHide = "Fenster wird ausgeblendet";
+		Strings.PluginHelp = " *** Minstrel Mentor Hilfe ***\n\n" ..
+		"/mi show - Zeigt das Fenster an.\n" ..
+		"/mi lock - Sperrt/entsperrt die Verkn\195\188pfungen.\n" ..
+		"/mi default - F\195\188gt die vorhandenen Fertigkeiten automatisch ein.\n" ..
+		"/mi alt - Alt-Taste gedr\195\188ckt halten, um das Symbol zu verschieben.\n" ..
+		"/mi hide - Blendet das Fenster aus.\n" ..
+		"/mi toggle - Fenster anzeigen/ausblenden.\n\n" ..
+		"Du kannst deine Mentor-Fertigkeiten per Drag & Drop auf die Pl\195\164tze ziehen und sie mit dem Mausrad l\195\182schen.";
 
 elseif Turbine.Engine.GetLanguage() == Turbine.Language.French then
 		Strings.PluginName = "Minstrel Mentor";
